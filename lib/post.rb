@@ -16,8 +16,7 @@ class Post
   end
   
   def author_name
-   self.author.name unless self.author.nil?
-   binding.pry
+   self.author.name unless (self.author).nil?
   end
   
 end
